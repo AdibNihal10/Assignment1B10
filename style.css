@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 150px;
+}
+nav p {
+  font-family: "Azeret Mono";
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.btn-primary {
+  border-radius: 8px;
+  font-family: "Azeret Mono";
+  padding: 17px 24px;
+  background-color: white;
+  font-weight: 600;
+  border-width: thin;
+}
+.container {
+  background-image: url("assets/Hero-bg.png");
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.sub-container {
+  text-align: center;
+}
+
+.define {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 32px;
+}
+.journey {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 24px;
+}
+.sub-container img {
+  margin-top: 24px;
+}
+.btn-secondary {
+  border-radius: 8px;
+
+  background: rgb(13, 19, 33);
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 21px 24px;
+  margin-top: 60px;
+}
+
+/* Main Banner */
+.real {
+  margin: 80px 150px;
+}
+.reason {
+  text-align: center;
+}
+.second {
+  padding: 0px 50px;
+}
+.webdev {
+  border-radius: 16px;
+  padding: 80px 100px;
+  background: rgba(13, 19, 33, 0.02);
+}
+.reason-header {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.reason-desc {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-top: 24px;
+  padding: 0px 150px;
+}
+.banner {
+  border-radius: 16px;
+
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  padding: 48px;
+  margin-top: 32px;
+}
+.banner-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.banner-desc {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.banner-desc1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 16px;
+  opacity: 0.7;
+}
+.btn-third {
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+
+  background-color: white;
+  padding: 12px 20px;
+  color: rgb(13, 19, 33);
+  font-family: "Azeret Mono";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 32px;
+}
+.banner-content1 {
+  display: flex;
+  gap: 32px;
+}
+.video-section {
+  margin-top: 88px;
+  text-align: center;
+}
+
+.youtube-video {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  padding: 32px;
+  margin-top: 40px;
+}
+.content-video {
+  border-radius: 16px;
+}
+
+.target-sec {
+  margin-top: 150px;
+}
+.target {
+  text-align: center;
+}
+.languages {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 48px;
+}
+#banner1 {
+  border-radius: 16px;
+
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+}
+.image1 {
+  /* Group */
+  position: absolute;
+  width: 39.68px;
+  height: 56px;
+  left: 14.57%;
+  right: 14.57%;
+  top: 0%;
+  bottom: 0%;
+}
+.lan1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 24px;
+}
+.lang-desc {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 8px;
+}
+.langlink {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 24px;
+
+  text-align: left;
+  text-decoration-line: underline;
+}
+.link1 {
+  margin-top: 24px;
+}
+#banner2 {
+  border-radius: 16px;
+
+  background: rgba(255, 223, 0, 0.05);
+  padding: 40px;
+}
+#banner3 {
+  border-radius: 16px;
+
+  background: rgba(0, 76, 232, 0.05);
+  padding: 40px;
+}
+.next-target {
+  margin-top: 110px;
+  text-align: center;
+}
+.frameworks {
+  display: flex;
+  gap: 24px;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  margin-top: 48px;
+}
+.frameworkdesc {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.frameworkdetails {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+.frameworks1 {
+  display: flex;
+  gap: 24px;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  margin-top: 24px;
+}
+.support {
+  background-image: url(assets/handshake.jpg);
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 16px;
+  background-blend-mode: overlay;
+
+  height: 314px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 50px;
+}
+.support h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  margin-top: 64px;
+}
+.support p {
+  color: rgb(255, 255, 255, 0.7);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 16px;
+}
+.support-desc {
+  padding: 10px;
+}
+.forms {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+#formfeedback {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+
+  background: rgb(255, 255, 255);
+  width: 550px;
+  height: 58px;
+  color: rgba(25, 41, 78, 0.4);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  padding: 16px;
+}
+
+#submit-btn {
+  border-radius: 8px;
+
+  background: rgb(255, 255, 255);
+  height: 58px;
+  width: 120px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.end {
+  background-color: #0d132108;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 150px;
+}
+.end p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 24px;
+}
